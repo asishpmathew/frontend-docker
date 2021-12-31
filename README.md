@@ -1,5 +1,12 @@
 # frontend-docker
 
+Steps to run:
+- Run development setup : docker-compose up
+- Run production setup  : 
+    - docker build .
+    - docker run -it -p 8080:80 <id>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
